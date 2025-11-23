@@ -5,7 +5,7 @@ import { PersonPage } from "./pages/PersonPage"
 
 export default function App() {
   return (
-   <BrowserRouter basename="/parents-dashboard">
+   <BrowserRouter basename="/family-contributions">
       <Routes>
         <Route path="/" element={<DashboardPage />} />
         <Route path="/person/:name" element={<PersonPage />} />
