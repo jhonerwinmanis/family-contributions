@@ -2,9 +2,10 @@ export interface Contribution {
   id: string
   sibling: string
   amount: number
-  type: string
+  type: "Monthly Support"
   date: string
   status: "completed" | "pending" | "approved"
+  note:string
 }
 
 export const contributions: Contribution[] = [
@@ -15,6 +16,7 @@ export const contributions: Contribution[] = [
     type: "Monthly Support",
     date: "2025-06-21",
     status: "completed",
+    note:"",
   },
   {
     id: "2",
@@ -23,6 +25,7 @@ export const contributions: Contribution[] = [
     type: "Monthly Support",
     date: "2025-07-01",
     status: "completed",
+    note:"",
   },
   {
     id: "3",
@@ -31,6 +34,7 @@ export const contributions: Contribution[] = [
     type: "Monthly Support",
     date: "2025-07-04",
     status: "completed",
+    note:"",
   },
   {
     id: "4",
@@ -39,6 +43,7 @@ export const contributions: Contribution[] = [
     type: "Monthly Support",
     date: "2025-07-30",
     status: "completed",
+    note:"",
   },
   {
     id: "5",
@@ -47,14 +52,16 @@ export const contributions: Contribution[] = [
     type: "Monthly Support",
     date: "2025-08-01",
     status: "completed",
+    note:"",
   },
   {
     id: "6",
     sibling: "Maria Lourdes",
     amount: 1520,
-    type: "Insurance",
+    type: "Monthly Support",
     date: "2025-10-16",
     status: "completed",
+    note:"",
   },
   {
     id: "7",
@@ -63,22 +70,7 @@ export const contributions: Contribution[] = [
     type: "Monthly Support",
     date: "2025-10-26",
     status: "completed",
-  },
-  {
-    id: "8",
-    sibling: "Remedios",
-    amount: 4080,
-    type: "Monthly Support",
-    date: "2025-10-26",
-    status: "completed",
-  },
-  {
-    id: "9",
-    sibling: "Maria Lourdes",
-    amount: 1015,
-    type: "Monthly Support",
-    date: "2025-11-09",
-    status: "completed",
+    note:"",
   },
   {
     id: "10",
@@ -87,14 +79,25 @@ export const contributions: Contribution[] = [
     type: "Monthly Support",
     date: "2025-11-09",
     status: "completed",
+    note:"",
   },
   {
     id: "11",
-    sibling: "Maria Lourdes",
+    sibling: "Remedios",
     amount: 1200,
     type: "Monthly Support",
     date: "2025-11-22",
     status: "completed",
+    note:"",
+  },
+  {
+    id: "12",
+    sibling: "Remedios",
+    amount: 2500,
+    type: "Monthly Support",
+    date: "2025-10-26",
+    status: "completed",
+    note: "1 sack of rice"
   }
 ]
 

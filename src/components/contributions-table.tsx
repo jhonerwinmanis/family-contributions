@@ -51,6 +51,7 @@ export function ContributionsTable() {
                 <th className="text-left py-3 px-4 font-semibold text-foreground">Date</th>
                 <th className="text-right py-3 px-4 font-semibold text-foreground">Amount</th>
                 <th className="text-left py-3 px-4 font-semibold text-foreground">Status</th>
+                 <th className="text-left py-3 px-4 font-semibold text-foreground">Note</th>
               </tr>
             </thead>
             <tbody>
@@ -86,6 +87,9 @@ export function ContributionsTable() {
                     >
                       {contribution.status.charAt(0).toUpperCase() + contribution.status.slice(1)}
                     </span>
+                  </td>
+                  <td className="py-3 px-4 text-right text-foreground font-semibold">
+                    {contribution.note}
                   </td>
                 </tr>
               ))}
