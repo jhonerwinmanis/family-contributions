@@ -102,7 +102,7 @@ export const contributions: Contribution[] = [
   {
     id: "13",
     sibling: "Remedios",
-    amount: 2500,
+    amount: 5000,
     type: "Monthly Support",
     date: "2025-10-27",
     status: "completed",
