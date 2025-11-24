@@ -98,6 +98,15 @@ export const contributions: Contribution[] = [
     date: "2025-10-26",
     status: "completed",
     note: "1 sack of rice"
+  },
+  {
+    id: "13",
+    sibling: "Remedios",
+    amount: 2500,
+    type: "Monthly Support",
+    date: "2025-10-27",
+    status: "completed",
+    note: ""
   }
 ]
 
